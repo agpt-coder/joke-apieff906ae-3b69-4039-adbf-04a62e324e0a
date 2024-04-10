@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "joke-api"
+version = "0.1.0"
+description = "To create a Joke API that outputs a single random joke at the endpoint `/joke`, using the specified tech stack (Python, FastAPI, PostgreSQL, Prisma), follow these comprehensive steps:"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+fastapi = "*"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
